@@ -1,0 +1,111 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #191716;
+  background-color: #C8BFC7;
+  line-height: 1.7;
+}
+
+h1 {
+  font-weight: 800;
+  color: #8D80AD;
+  font-size: 40px;
+}
+
+h2, h3 {
+  font-weight: 500;
+  color: #B3C0A4;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  padding: 50px;
+  margin: 10px auto;
+}
+
+.img-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.btn-green {
+  display: inline-block;
+  background-color: #8D80AD;
+  color: #fff;
+  font-size: 18px;
+  width: 150px;
+  height: 30px;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-green:hover {
+  background-color: #B3C0A4;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center p {
+  text-align: justify;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  font-size: 30px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  h1, h2, h3 {
+    font-size: 16px;
+  }
+  .container {
+    width: 300px;
+    font-size: 12px;
+  }
+  .img-circle {
+    width: 100px;
+    height: 100px;
+  }
+  .list-inline {
+    font-size: 16px;
+}
+  .btn-green {
+    width: 100px;
+    height: 20px;
+    font-size: 12px;
+  }
+}
